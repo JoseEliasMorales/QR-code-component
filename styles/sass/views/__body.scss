@@ -1,0 +1,32 @@
+body{
+    background: var(--background-color);
+    font-family: Outfit, sans-serif;
+    text-align: center;
+}
+
+.card{
+    margin: 5rem auto;
+    width:275px;
+    max-width: 90%;
+    border-radius: 20px;
+    background: var(--card-color);
+}
+
+.card__contain{
+    padding: 1rem;
+}
+
+.card__containCode{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__containTitle{
+    font-size: 21px;
+    color: var(--dark-color);
+}
+
+.card__containParagraph{
+    font-size: 14px;
+    color: var(--font-color);
+}
