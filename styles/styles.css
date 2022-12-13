@@ -10,10 +10,14 @@ body {
   background: var(--background-color);
   font-family: Outfit, sans-serif;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  margin: 5rem auto;
+  margin: 0 auto 3rem auto;
   width: 275px;
   max-width: 90%;
   border-radius: 20px;
